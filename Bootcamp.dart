@@ -70,3 +70,11 @@ void switch_or_if() {
   print("Score: $score");
   print("Grade: $grade");
 }
+
+void loop() {
+  for (int milk = 99; milk > 0; milk--) {
+    print("$milk bottles of milk on the wall, $milk bottles of milk.");
+    print("You take one down, pass it around... ");
+    print("${milk - 1} bottles of milk on the wall.\n");
+  }
+}
