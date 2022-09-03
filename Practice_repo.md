@@ -21,3 +21,5 @@ Default statement is optional, works similar to else (if/else), if all of the ot
 #### Input from the user 
 *Syntax*
 variable = < get answer from console>
+
+To make a parameter in a function optional just add square brackets 
