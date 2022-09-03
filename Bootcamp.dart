@@ -78,3 +78,14 @@ void loop() {
     print("${milk - 1} bottles of milk on the wall.\n");
   }
 }
+
+void greet(String recipient) {
+  print("Hello $recipient!");
+}
+
+void resultSum() {
+  int answer = sum(1000, 2900);
+  print(answer);
+}
+
+int sum(int a, int b) => a + b;
